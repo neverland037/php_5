@@ -92,3 +92,8 @@ a[href="index.php"] {
     margin: 10px 0;
     border-radius: 5px;
 }
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Añade espacio superior para separar los mensajes de error */
+}
