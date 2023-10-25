@@ -59,7 +59,7 @@
                     <tr>
                     <tr>
                         <td>Monto <br> Prestado: </td>
-                        <td><input type="number" value="<?php echo $Monto; ?>" name="txt_Monto"></td>
+                        <td><input type="text" value="<?php echo $Monto; ?>" name="txt_Monto"></td>
                         <td class="error">
                             <?php if (isset($_POST['Btn_Calcular'])) {
                                 if (empty($Monto)) {
